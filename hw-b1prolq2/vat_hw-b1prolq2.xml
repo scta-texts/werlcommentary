@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Prologus, Quaestio 2 [Vat. Lat. 1109 Transcription]</title>
+        <author>Henricus de Werl</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.01">
+          <title>Librum I, Prologus, Quaestio 2 [Vat. Lat. 1109 Transcription]</title>
+          <date when="2015-03-02">March 02, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-03-02">March 02, 2015</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V">Vatican</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-03-02" who="#JW" status="draft" n="2015.03" >
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
+    <body>
+      <div xml:id="h2-b1prolq2">
+        <head>Librum I, Prologus, Quaestio 2 [Vat. Lat. 1109 Transcription]</head>
+        <p><lb ed="#V"/>Secundo 
+          <lb ed="#V"/>quaero istam quaestionem 
+          <lb ed="#V"/>utrum theologia sit 
+          <cb ed="#V" n="5rb"/><lb ed="#V"/>scientia</p>
+        
+        <p>Et arguo quod non 3ibus mediis <g ref="#pilcrow"/>primo sic 
+          <lb ed="#V"/>scientia est cognitio per causam <ref><hi rend="underline">primo <title ref="#PosteriorAnalytics">posteriorum</title></hi></ref> <quote ana="#Aristotle_PosteriorAnalytics_1_2_a">scire 
+          <lb ed="#V"/>est rem per causam cognoscere</quote> sed subiectum 
+          <lb ed="#V"/>circa quod est theologia non habet causam quia est 
+          <lb ed="#V"/>circa deum qui non habet causam ergo non est 
+          <lb ed="#V"/>scientia</p>
+        
+        <p><g ref="#pilcrow"/>2o de contingentibus aliter 
+          <lb ed="#V"/>se habere non est scientia ex <ref><hi rend="underline">primo <title ref="#PosteriorAnalytics">posteriorum</title></hi></ref> sed 
+          <lb ed="#V"/>in theologia multae considerantur veritates 
+          <lb ed="#V"/>contingentes quia non solum est de <choice><orig>neccessariis</orig><reg>necessariis</reg></choice> 
+          <lb ed="#V"/>sed etiam de contingentibus aliter se habe<lb ed="#V"/>re 
+          sed scientia tantum est de necessariis ut patet 
+          <lb ed="#V"/>ubi supra</p>
+        
+        <p><g ref="#pilcrow"/>3o sic habitus generatur 
+          <lb ed="#V"/>ex actibus frequenter itantis <ref>2o <corr><del>physicis</del> 
+          <lb ed="#V"/><add><title ref="#Ethics">ethicorum</title></add></corr></ref> Ita videlicet quod ex continua conside<g ref="#dbdash"/><lb ed="#V"/>ratione 
+          <lb ed="#V"/>circa obiectum abstrahitur species et 
+          <lb ed="#V"/>similitudo obiecti et inprimitur intellectui 
+          <lb ed="#V"/>et ex illa similitudine generatur habitus 
+          <lb ed="#V"/>sed ab obiecto theologiae non est abstrahibilis 
+          <lb ed="#V"/>aliqua species seu similitudo quia species 
+          <lb ed="#V"/>abstracta semper simplicior est re cuius est 
+          <lb ed="#V"/>species et sic tam illa species quam habitus ge<lb ed="#V"/>neratus 
+          ex illa esset simplicior deo quod 
+          <lb ed="#V"/>falsum est ergo non est habitus intllectualis 
+          <lb ed="#V"/>scientificus</p>
+        
+        <p><g ref="#pilcrow"/>In oppositum est <ref>illud 2i <title ref="#Metaphysics">metaphysicae</title></ref> 
+          <lb ed="#V"/><quote ana="#Aristotle_Metaphysics_2_1_a">sicut se habet res ad entitatem sic ad veri<g ref="#dbdash"/>tatem 
+          <lb ed="#V"/>et scientiam</quote> sed deus est maxime 
+          <lb ed="#V"/>entitatis ergo scientia de deo est maxima <g ref="#dot"/> 
+          <lb ed="#V"/>scientia sed haec est theologia ut patet <ref><!-- example of cross ref -->ex praecedente 
+          <lb ed="#V"/>quaestione</ref> ergo etc</p>
+        
+        <p><g ref="#pilcrow"/>pro declaratione istius 
+          <lb ed="#V"/>articuli pono tres articulos primus est 
+          <lb ed="#V"/>videre propositum <unclear>quaestionis</unclear> 2us an theologia sit 
+          <lb ed="#V"/>scientia una 3us an theologia sit scientia sub<g ref="#dbdash"/><lb ed="#V"/>alternans 
+          vel subalternata</p>
+        
+        <p><g ref="#pilcrow"/>Quantum 
+          <lb ed="#V"/>ad primum sciendum quod <ref><name ref="#Aristotle">arisitotle</name> 1o <title ref="#PosteriorAnalytics">posteriorum</title></ref> diffinit 
+          <lb ed="#V"/>scire pro actu non pro habitu dicens <quote ana="#Aristotle_PosteriorAnalytics_1_2_b">Scire 
+          <lb ed="#V"/>opinamur unumquodque simpliciter non sophistico 
+          <lb ed="#V"/>modo quod est secundum accidens cum causam arbitramur 
+          <cb ed="#V" n="5va"/><lb ed="#V"/>cognoscere propter quam res est et quoniam illius causa 
+          <lb ed="#V"/>est et non est contingere aliter se habere</quote> In 
+          <lb ed="#V"/>ista diffinitione scire ponuntur 4or condi<g ref="#dbdash"/>tiones</p>
+        
+        <p><g ref="#pilcrow"/>prima est quod scire est cognoscere 
+          <lb ed="#V"/>certum quia dicit <quote ana="#Aristotle_PosteriorAnalytics_1_2_b">simpliciter et non sophistico modo 
+          <lb ed="#V"/>quod est secundum accidens</quote> et hoc dicitur propter opinionem 
+          <lb ed="#V"/>quae est apprehensio rei cum formidine sed 
+          <lb ed="#V"/>scientia est cognitio sine haesitatione ideo 
+          <lb ed="#V"/>certa Unde dicit <ref><name ref="#Aristotle">aristotele</name> 6o <title>ethicorum</title> capitulo 3o</ref> suspitione 
+          <lb ed="#V"/>et opinione contingit falsum dicere scientia <unclear>quidem</unclear> igitur 
+          <lb ed="#V"/>est hinc manifestum sed oportet certificare et non sequi 
+          <lb ed="#V"/>similitudines Item habitus intellectuales <unclear>utque</unclear> 
+          <lb ed="#V"/><corr><del rend="expunctuated">dicit</del></corr> ibidem Sed scientia est habitus intellectualis 
+          <lb ed="#V"/>ut dicit ibidem in principio capituli ergo est cognitio 
+          <lb ed="#V"/>certa</p>
+        
+        <p><g ref="#pilcrow"/>2a est quod scientia est ex aliqua <choice><orig>neccessario</orig><reg>necessario</reg></choice> 
+          <lb ed="#V"/>prius evidente Ideo dicit <quote ana="#Aristotle_PosteriorAnalytics_1_2_b">cum causam arbi<lb ed="#V"/>tramur 
+          cognoscere propter quam res est</quote> 
+          <lb ed="#V"/>per hanc conditionem distinguitur scientia 
+          <lb ed="#V"/>ab intellectu qui dicitur habitus intellectivus 
+          <lb ed="#V"/>non noto <unclear>ponam</unclear> intellectivam hic habitus 
+          <lb ed="#V"/>intellectivus est habitus principiorum id est quo 
+          <lb ed="#V"/>assentimus primis propositionibus per se notis 
+          <lb ed="#V"/>ut dicitur <ref>6o <title>ethicorum</title> capitulo 6o</ref> quia principia 
+          <lb ed="#V"/>cognoscimus inquantum terminus cognoscimus 
+          <lb ed="#V"/>Exemplum omne totum est <unclear>intus</unclear> sua parte 
+          <lb ed="#V"/>et huiusmodi sed scientia est habitus conclusionis ut dicitur 
+          <lb ed="#V"/><ref>ibidem eodem modo et capitulo 3o</ref> quia scientia syllogi<lb ed="#V"/>zat 
+          ex notioribus</p>
+        
+        <p><g ref="#pilcrow"/>3a conditio est 
+          <lb ed="#V"/>quod scientia dependet ab obiecto <choice><orig>neccessario</orig><reg>necessario</reg></choice> et ideo 
+          <lb ed="#V"/>dicit <quote ana="#Aristotle_PosteriorAnalytics_1_2_b">quoniam illius est causa</quote> Ratio est quia qualis 
+          <lb ed="#V"/>est habitudo causae ad effecta talis est habitu<g ref="#dbdash"/>do 
+          medii ad conclusionem in intellectu sed numquam 
+          <lb ed="#V"/>est effectus in actu nisi in habitudine ad 
+          <lb ed="#V"/>causam in actu ut dicitur <ref>2o <title ref="#Physics">physicis</title> <unclear>3o</unclear></ref> 
+          <lb ed="#V"/>numquam est conditio in actu in intellectu nisi in 
+          <lb ed="#V"/>habitudine ad medium in actu</p>
+        
+        <p><g ref="#pilcrow"/>4ti con<g ref="#dbdash"/><lb ed="#V"/>ditio 
+          est quod scientia est veri et <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> Ideo 
+          <cb ed="#V" n="5vb"/><lb ed="#V"/>dicit <quote ana="#Aristotle_PosteriorAnalytics_1_2_b">et non est contingere aliter se habere</quote> 
+          <lb ed="#V"/>quia alias scientia non esset cognitio certa 
+          <lb ed="#V"/>mutato enim obiecto mutaretur scientia et ideo 
+          <lb ed="#V"/>dicit <ref><name ref="#Aristotle">aristoteles</name> 4o <title ref="#Metaphysics">metaphysicae</title></ref> quod particularium non est 
+          <lb ed="#V"/>scientia et <ref>6o <title ref="#Ethics">ethicorum</title> capitulo 3o</ref></p>
+        
+        <p><g ref="#pilcrow"/>Omnes enim 
+          <lb ed="#V"/>suspicamur quod scimus non contingere aliter 
+          <lb ed="#V"/>se habere Ex quibus 4or conditionibus infertur 
+          <lb ed="#V"/>corollariae</p>
+        
+        <p><g ref="#slash"/>5a conditio quod scientia est cognitio ap<lb ed="#V"/>plicata 
+          ad scitum per discursum <unclear>syllogistice</unclear></p>
+        
+        <p><lb ed="#V"/>Ex istis conditionibus integratur diffinitio 
+          <lb ed="#V"/>scientiae videlicet quod scientia est habitus cognitivus 
+          <lb ed="#V"/>veri <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> mediati demonstrati ex 
+          <lb ed="#V"/>veris <choice><orig>neccessariis</orig><reg>necessariis</reg></choice> prioribus et nati habere 
+          <lb ed="#V"/>evidentiam applicatam ad scitum per 
+          <lb ed="#V"/>discursum syllogisticum</p>
+        
+        <p><g ref="#pilcrow"/>prima est 
+          <lb ed="#V"/>quod theologia in se et intellectu divino est scientia 
+          <lb ed="#V"/>quantum ad primam conditionem quia est cognitio 
+          <lb ed="#V"/>certa absque deceptione et dubitatione 
+          <lb ed="#V"/>et quantum ad 2am conditionem licet 
+          <lb ed="#V"/>ibi non sit talis causa sed tamen illa conditio 
+          <lb ed="#V"/>non competit theologiae divinae quantum ad 
+          <lb ed="#V"/>omnes veritates quia non ad primam veritatem 
+          <lb ed="#V"/><choice><orig>neccessariam</orig><reg>necessariam</reg></choice> quia quaecumque sit talis et quantum 
+          <lb ed="#V"/>ad primam conditionem illa est clara sed 
+          <lb ed="#V"/>non est scientia quantum ad 3am et 5am condi<g ref="#dbdash"/><lb ed="#V"/>tionem 
+          seu conditiones quia illae sunt imperfectionis</p>
+        
+        <p><g ref="#pilcrow"/>2a quod theologia beatorum vere est scientia 
+          <lb ed="#V"/>quantum ad omnes conditiones</p>
+        
+        <p>Sed contra 
+          <lb ed="#V"/>quia dicit <ref><hi rend="underline"><name ref="#Augustine">Augustinus</name> in <title>de trinitate</title> capitulo 16o</hi></ref> <quote ana="#Augustine_DeTrinitate_15_16_26_a">for<g ref="#dbdash"/>tassis 
+          inquit non erunt cogitationes 
+          <lb ed="#V"/>nostrae volubiles sed scientiam nostram 
+          <lb ed="#V"/>unico actu et intuitu videbimus</quote> 
+          <lb ed="#V"/>et per consequens intellectus beatorum non discurret 
+          <lb ed="#V"/>et per consequens omnino habebit scientiam quantum 
+          <lb ed="#V"/>ad ultimum conditionem</p>
+        
+        <p><g ref="#pilcrow"/>Respondeo quod 
+          <lb ed="#V"/>duplex est discursus quidam est per successio<g ref="#dbdash"/><lb ed="#V"/>nem 
+          temporis et quidam per ordinem naturae</p>
+        
+        <p><cb ed="#V" n="6ra"/><lb ed="#V"/><g ref="#pilcrow"/>primus discursus non est ibi Nam 
+          <lb ed="#V"/>omnis quidditas subiecta in quocumque lumine 
+          <lb ed="#V"/>videtur continet virtualiter veritates 
+          <lb ed="#V"/>quas potest facere notas vel veras in<lb ed="#V"/>tellectu 
+          passivo a tali obiecto sed omnis 
+          <lb ed="#V"/>veritas causata in intellectu nostro per aliquid 
+          <lb ed="#V"/>prius eius naturaliter notum causatur per dis<g ref="#dbdash"/>cursum 
+          originis naturae non temporis</p>
+        
+        <p><g ref="#pilcrow"/>Aliter 
+          <lb ed="#V"/>potest dici ad auctoritatem quod <name ref="#Augustine">augustinus</name> non loquitur 
+          <lb ed="#V"/>assentive sed dubitative</p>
+        
+        <p><g ref="#pilcrow"/>3a propositio est quod 
+          <lb ed="#V"/>theologia viatorum est proprie scientia quantum 
+          <lb ed="#V"/>ad omnes conditiones quia scimus per discursum 
+          <lb ed="#V"/>ab ignoto ad magis natum et patet 1o 
+          <lb ed="#V"/><ref><title ref="#PosteriorAnalytics">posteriorum</title></ref> <ref>1o <title ref="#Physics">physicis</title></ref> et <ref>3o <title ref="#deAnima">de anima</title></ref> quia <quote>anima nostra 
+          <lb ed="#V"/>est tamquam tabula rasa</quote> et <ref>2o <title ref="#deAnima">de anima</title></ref> quia 
+          <lb ed="#V"/>ipsa procedit a potentia ad habitum ab habitu 
+          <lb ed="#V"/>ad actum et huiusmodi</p>
+        
+        <p><g ref="#pilcrow"/>Quantum ad 2m 
+          <lb ed="#V"/>articulum sciendum quod tres sunt gradus uni<g ref="#dbdash"/><lb ed="#V"/>tatis 
+          scientiae primus est speciei sive subiecti et 
+          <lb ed="#V"/>illa est bipartitus Ita quod primus gradus 
+          <lb ed="#V"/>alicuius subiecti seu specie specialissime 
+          <lb ed="#V"/>respectu unius passionis tantum ut homo est risibilis</p>
+        
+        <p><g ref="#pilcrow"/>3us 
+          <lb ed="#V"/>seu 2us est generis propinqui speciei specialissime 
+          <lb ed="#V"/>Ita quod aliquis est habitus includens 
+          <lb ed="#V"/>multos habitos et principia propria quae sunt 
+          <lb ed="#V"/>respectu multorum inclusorum in uno sub<g ref="#dbdash"/><lb ed="#V"/>iecto 
+          communi <unclear>gen?o</unclear> proximo et convenientium 
+          <lb ed="#V"/>per ipsum ipsis inferioribus Exemplum acci<g ref="#dbdash"/><lb ed="#V"/>piatur 
+          hoc subiectum commune cum suo praedicato proprio 
+          <lb ed="#V"/>ut animal habet animam <sic>sensativum<!-- see below --></sic> et sic principium 
+          <lb ed="#V"/>et haec propositio animal habet organum sentiendi 
+          <lb ed="#V"/>animal habet appetitum sensitivum sicut igitur 
+          <lb ed="#V"/>tunc cuicumque competit inferiori competit 
+          <lb ed="#V"/>sibi virtute illius communis <unclear>gene?ci</unclear> sic acci<g ref="#dbdash"/><cb ed="#V" n="6rb"/><lb ed="#V"/>piatur 
+          habitus</p>
+        
+        <p><g ref="#pilcrow"/>3us est generis remoti 
+          <lb ed="#V"/>qui gradus unitatis est illorum habituum 
+          <lb ed="#V"/>propriorum quae sunt respectu multorum inclusorum 
+          <lb ed="#V"/>in uno communi et per ipsum convenientium in<lb ed="#V"/>ferioribus 
+          et etiam propriorum inclusorum 
+          <lb ed="#V"/>in illis inferioribus</p>
+        
+        <p>Exemplum dicatur 
+          <lb ed="#V"/>subiecta subiectum unius scientiae in qua omnia 
+          <lb ed="#V"/>cognoscerentur sive de subiecta in universali primo 
+          <lb ed="#V"/>cognoscibilia et de speciebus eius <unclear>per se</unclear> sive de 
+          <lb ed="#V"/>speciebus eius per se primo</p>
+        
+        <p><g ref="#pilcrow"/>Sed reduco
+          <lb ed="#V"/>illas unitates ad duas videlicet ad u<g ref="#dbdash"/><lb ed="#V"/>nitatem 
+          generis et speciei specialissime Et 
+          <lb ed="#V"/>dico duas propositiones</p>
+        
+        <p><g ref="#pilcrow"/>Prima eset quod aliqua 
+          <lb ed="#V"/>est scientia una unitate speciei et illa unitate 
+          <lb ed="#V"/>habet de obiecto in ordine ad suam adaequatam 
+          <lb ed="#V"/>passionem probo istam propositionem quia aliquo<g ref="#dbdash"/>cumque 
+          aliquid capit esse ab eodem capit u<g ref="#dbdash"/><lb ed="#V"/>num 
+          esse quia ens et unum <unclear>conuntuntur</unclear> sed 
+          <lb ed="#V"/>habitus scientificus habet esse ab obiecto 
+          <lb ed="#V"/>ut patet in primo articulo huius quaestionis gratis</p>
+        
+        <p><lb ed="#V"/>Et quod in ordine ad suam passionem 
+          <lb ed="#V"/>patet quia geometer et physicus sunt 
+          <lb ed="#V"/>de eodem scibili puta de figura quia tam 
+          <lb ed="#V"/>physicus considerat figuram in ordine 
+          <lb ed="#V"/>ad alteram passionem quam geometer 
+          <lb ed="#V"/>quia physicus in quantum est terminus corporis 
+          <lb ed="#V"/>geometer inquantum habet 3s divisio<g ref="#dbdash"/>nes 
+          Ideo sunt diversae scientiae</p>
+        
+        <p><g ref="#pilcrow"/>Item habitus 
+          <lb ed="#V"/>scientificus est quaedam qualitas 
+          <lb ed="#V"/>derelicta seu similitudo ipsius obiecti in 
+          <lb ed="#V"/>ordine ad certam passionem causata ex 
+          <lb ed="#V"/>frequenti speculatione vel una perfecta 
+          <lb ed="#V"/>obiecti in ordine ad eandem passionem 
+          <lb ed="#V"/>inclinans intellectum ad speculationem eandem 
+          <lb ed="#V"/>vel consimilem</p>
+        
+        <p>Exemplum consideret intellectus hoc 
+          <lb ed="#V"/>complexum triangulo habet tres angelos 
+          <lb ed="#V"/>ex frequenti speculatione talis obiecti vel ex 
+          <cb ed="#V" n="6va"/><lb ed="#V"/>una perfecta potest generari habitus in intellectu 
+          <lb ed="#V"/>qui est similitudo obiecti inclinans ad consi<g ref="#dbdash"/><lb ed="#V"/>milem 
+          speculationem</p>
+        
+        <p><g ref="#pilcrow"/>2a propositio est 
+          <lb ed="#V"/>quod aliqua scientia est una unitate generis et 
+          <lb ed="#V"/>illa est quando aliquod subiectum in se continet vir<g ref="#dbdash"/><lb ed="#V"/>tualiter 
+          multas veritates et passiones 
+          <lb ed="#V"/>sicut dictum est de ratione primi subiecti <ref>in prima 
+          <lb ed="#V"/>quaestione</ref> articulo primo notabili 3o virtualiter</p>
+        
+        <p><lb ed="#V"/>Dico quod intellectus potest considerare de una 
+          <lb ed="#V"/>passione per rationem subiecti altera passio non 
+          <lb ed="#V"/>considerata et sic omnes illae passiones con<g ref="#dbdash"/><lb ed="#V"/>tentae 
+          virtualiter in subiecto pertinent 
+          <lb ed="#V"/>ad unum genus cognitionis et sic intelligit 
+          <lb ed="#V"/><ref><name ref="#Aristotle">philosophus</name> 1o <title ref="#PosteriorAnalytics">posteriorum</title></ref> Scientia est unius generis 
+          <lb ed="#V"/>subiecti partes et passiones habens et sic patet <unclear>quid</unclear> 
+          <lb ed="#V"/>multae scientiae specifica unitate una sicut 
+          <lb ed="#V"/>subiectum in subiecto sicut scientia in scientia et 
+          <lb ed="#V"/>unitas in scientia est ab unitate subiecti</p>
+        
+        <p><g ref="#pilcrow"/>Isto praesupposito tamquam fundamento 
+          <lb ed="#V"/>dico ad articulum duas propositiones</p>
+        
+        <p><g ref="#pilcrow"/>prima 
+          <lb ed="#V"/>est quod theologia non est scientia una unitate 
+          <lb ed="#V"/>specifica probo quantumque aliquod subiectum non 
+          <lb ed="#V"/>habet convertibilem passionem sed continet 
+          <lb ed="#V"/>multas passiones virtualiter habitus 
+          <lb ed="#V"/>scientificus de ipso obiecto theologiae quod est deus 
+          <lb ed="#V"/>sub ratione deitatis ergo etc consequentia tenet 
+          <lb ed="#V"/>et maior ex <ref>declaratione prima videlicet ex 
+          <lb ed="#V"/>2o articulo quaestione primae</ref> Nam multae probantur 
+          <lb ed="#V"/>passiones in theologia de deo</p>
+        
+        <p><g ref="#pilcrow"/>Sed contra 
+          <lb ed="#V"/>theologia in deo est habitus unus unitate 
+          <lb ed="#V"/>specifica quia intellectus divinus comprehendit es<g ref="#dbdash"/>sentia 
+          unico actu tum quia unico actu 
+          <lb ed="#V"/>omnia sunt nota in ea sicut in perfecto 
+          <lb ed="#V"/>repraesentativo</p>
+        
+        <p><g ref="#pilcrow"/>Respondeo et dico quod deus 
+          <lb ed="#V"/>unico actu comprehendit omnia simplici compre<g ref="dbdash"/><lb ed="#V"/>hensione 
+          sed non potest formare aliqua 
+          <lb ed="#V"/>complexione ab aliqua passione adaequa<g ref="#dbdash"/><cb ed="#V" n="6vb"/><lb ed="#V"/>ta 
+          est talis propter illicitationem naturae</p>
+        
+        <p><g ref="#pilcrow"/>2a 
+          <lb ed="#V"/>propositio est quod theologia est una unitate generis 
+          <lb ed="#V"/>quia omnis habitus qui est de obiecto continente 
+          <lb ed="#V"/>plures passiones et veritates et nullam 
+          <lb ed="#V"/>adaequate est habitus unus unitate generis sed 
+          <lb ed="#V"/>theologia est huiusmodi ergo etc consequentia tenet et 
+          <lb ed="#V"/>maior ex praemissis et similiter minor ergo ex hoc 
+          <lb ed="#V"/>quod omnia <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> et contingentia quae conti<g ref="#dbdash"/><lb ed="#V"/>nentur 
+          in theologia spectat ad unum 
+          <lb ed="#V"/>habitum pro tanto quod omnia continentur 
+          <lb ed="#V"/>in <corr>ei<del>s</del><add>us</add></corr> primo obiecto scilicet in deo sub ratione 
+          <lb ed="#V"/>deitatis et sic patet 2us articulus</p>
+        
+        <p><g ref="#pilcrow"/>Quantum 
+          <lb ed="#V"/>ad 3m Sciendum quod subalternare est 
+          <lb ed="#V"/>subiectum vel partem subiecti et medium alteri 
+          <lb ed="#V"/>scientiae ministrare Scientia igitur subalternans 
+          <lb ed="#V"/>est illa quae ministrat principia et aliquid 
+          <lb ed="#V"/>subiecti Scientia subalternata est illa quae 
+          <lb ed="#V"/>ab aliquo recipit subiectum addendo 
+          <lb ed="#V"/>aliqua conditionem per accidens Nam 
+          <lb ed="#V"/>subiectum scientiae subalternae est ex diversis 
+          <lb ed="#V"/>realitatibus per accidens quia ex realitate 
+          <lb ed="#V"/>subiecti scientiae subalternantis et quadam 
+          <lb ed="#V"/>realitate actuali quia accidens in est 
+          <lb ed="#V"/>illi subiecto sicut subiectum scientiae perspectivae 
+          <lb ed="#V"/>quod ponitur linea visualis addit condi<lb ed="#V"/>tionem 
+          per accidens scilicet visualitatem ad 
+          <lb ed="#V"/>subiectum geometriae quod ponitur linea et 
+          <lb ed="#V"/>passiones et proprietates quae insunt subiecto 
+          <lb ed="#V"/>scientiae subalternatae demonstrantur per medium 
+          <lb ed="#V"/>et diffinitionem subiecti scientiae subalternantis</p>
+        
+        <p><g ref="#pilcrow"/>Dixi notanter adden<lb ed="#V"/>do 
+          aliquam conditionem per accidens 
+          <lb ed="#V"/>ut dicit <ref><name ref="#Grosseteste">lyncoln</name> super primum <title ref="#PosteriorAnalytics">posterior</title></ref> 
+          <lb ed="#V"/>sic quod talis <corr><del rend="expunctuated">cognitio</del></corr> conditio non sit 
+          <lb ed="#V"/>egrediens a natura subiecti Et hoc patet 
+          <lb ed="#V"/>quod physicalis scientia non est subalternata 
+          <cb ed="#V" n="7ra"/><lb ed="#V"/>mathematicae nec metaphysicae posito ut ego teneo quod 
+          <lb ed="#V"/>corpus mobile sit subiectum in physica licet 
+          <lb ed="#V"/>corpus sit subiectum in physica licet corpus 
+          <lb ed="#V"/>sit mathematicae subiectum et physica addit mobilitatem 
+          <lb ed="#V"/>ut dicendo corpus mobile non tamen fit ibi 
+          <lb ed="#V"/>unum per accidens sed unum per se et mo<g ref="#dbdash"/><lb ed="#V"/>bilitas 
+          egreditur a natura subiecti nec etiam 
+          <lb ed="#V"/>metaphysicae positio quod ens mobile sit subiectum 
+          <lb ed="#V"/>ex eadem ratione et etiam omnes scientiae tales 
+          <lb ed="#V"/>scilicet mathematica physica logica ethica sint 
+          <lb ed="#V"/>sub metaphysica et ut subiectum sub subiecto 
+          <lb ed="#V"/>et tamen nulla istarum subalternatur ei quia 
+          <lb ed="#V"/>inferioritas et superioritas non faciunt 
+          <lb ed="#V"/>ad subalternationem Alias tot essent 
+          <lb ed="#V"/>scientiae in quolibet praedicamento subalter<g ref="#dbdash"/><lb ed="#V"/>nante 
+          et subalternate quot essent ibi 
+          <lb ed="#V"/>superioritates et inferioritates Isto 
+          <lb ed="#V"/>praesupposito tamquam fundamento dico 2as 
+          <lb ed="#V"/>propositiones</p>
+        
+        <p><g ref="#pilcrow"/>prima quod theologia nulli sub<lb ed="#V"/>alternatur 
+          quia licet subiectum eius potest 
+          <lb ed="#V"/>aliquo modo contineri sub subiecto metaphysicae nulla 
+          <lb ed="#V"/>tamen principia accipit a metaphysica quia nulla 
+          <lb ed="#V"/>passio theologica demonstrabilis est in ea 
+          <lb ed="#V"/>per principia entis vel per rationem sumptam 
+          <lb ed="#V"/>ex ratione entis ac entis non est subiectum 
+          <lb ed="#V"/>compositum per accidens ex duabus realitatibus 
+          <lb ed="#V"/>sed est subjectum simplex et absolutum ergo etc</p>
+        
+        <p><g ref="#pilcrow"/><g ref="#pilcrow"/>2a propositio est quod theologia nullam sibi  
+          <lb ed="#V"/>scientiam subalternat quia nulla alia 
+          <lb ed="#V"/>accipit principia ab ipsa Nam quaelibet alia 
+          <lb ed="#V"/>in genere cognitionis naturalis habet resolu<g ref="#dbdash"/><lb ed="#V"/>tionem 
+          suam ultimo ad aliqua principia 
+          <lb ed="#V"/>immediata naturaliter nota</p>
+        
+        <p><g ref="#pilcrow"/>Sed contra 
+          <lb ed="#V"/>resolutio non stat ex cognoscibilibus 
+          <lb ed="#V"/>non ad perfectissimum cognoscibile et 
+          <lb ed="#V"/>cognitio in resolutione alicuius non 
+          <lb ed="#V"/>stat ut idem non est perfectissime cognitum 
+          <cb ed="#V" n="7rb"/><lb ed="#V"/>sed omnia perfectissime cognoscuntur in verbo et 
+          <lb ed="#V"/>perfectius quam in genere proprio quia linea per<lb ed="#V"/>fectius 
+          cognoscitur in verbo quam per motionem 
+          <lb ed="#V"/>sui ipsius ergo resolutio conclusionum de aliquo 
+          <lb ed="#V"/>cognoscibili puta de linea non stat 
+          <lb ed="#V"/>non ad quidditatem lineae vel ad principia 
+          <lb ed="#V"/>de ipsa ut videntur in verbo sic etiam 
+          <lb ed="#V"/>resolutio ultima quarumcumque conclusionum et 
+          <lb ed="#V"/>principiorum stat ad visionem ubi ergo 
+          <lb ed="#V"/>illa subalternat alias notitias 
+          <lb ed="#V"/>quibus omnibus dat evidentia etc</p>
+        
+        <p><lb ed="#V"/><g ref="#pilcrow"/>Respondeo quod aliquid principium immediatum 
+          <lb ed="#V"/>de linea potest esse evidenter dupliciter moto a 
+          <lb ed="#V"/>linea vel moto a verbo</p>
+        
+        <p><g ref="#pilcrow"/>Ad notitiam 
+          <lb ed="#V"/>linea 2o modo clarius videtur tamen linea ut 
+          <lb ed="#V"/>sic visa vel principium lineae ut sic 
+          <lb ed="#V"/>cognitum non demonstrat se alio modo vel principio 
+          <lb ed="#V"/>modo motum sed utroque modo est per se sed sub<lb ed="#V"/>alternatio 
+          requirit quod notitia principiorum 
+          <lb ed="#V"/>scientiae superioris sit causa notitiae scientiae infe<g ref="#dbdash"/>rioris 
+          <unclear>quaestione <!-- quomodo ? conclusione ?? --></unclear> non est in proposito igitur</p>
+        
+        <!-- response to principle arguments -->
+        <p><g ref="#pilcrow"/>Ad 
+          <lb ed="#V"/>argumenta principalia ad primum <unclear>cu?tr</unclear> Scientia est 
+          <lb ed="#V"/>cognitio per causam et hoc patet sicut <ref><!-- corss ref -->responsum 
+          <lb ed="#V"/>est ad primum principale primae quaestione de principiis 
+          <lb ed="#V"/>subiecti</ref></p>
+          
+        <p>Ad 2m cum sit <unclear>arguitur</unclear> de contin<g ref="#dbdash"/><lb ed="#V"/>gentibus 
+          non est scientia Dico ad hoc quod 
+          <lb ed="#V"/>secundum istam conditionem scientiae quae est quod scientia 
+          <lb ed="#V"/>est obiecti necessariam non potest de contingentibus 
+          <lb ed="#V"/>esse scientia tamen secundum quod <name ref="#Aristotle">philosophus</name> capit scientiam 
+          <lb ed="#V"/><ref>6o <title ref="#Ethics">ethicorum</title></ref> ut distinguitur contra opinionem 
+          <lb ed="#V"/>et suspitionem et quod ad primam conditionem 
+          <lb ed="#V"/>scientiae pro ut et <corr><del rend="strikethrough">conditio</del></corr> cognitio certa tunc 
+          <lb ed="#V"/>bene de eis est scientia Nam de contingentibus 
+          <lb ed="#V"/>theologicis habetur evidentia manifesta certi<lb ed="#V"/>tudo 
+          in obiecto theologico et non habent eviden<g ref="#dbdash"/><lb ed="#V"/>tiam 
+          iudicatam seu demonstratam ex 
+          <lb ed="#V"/>aliis prioribus quia non continentur in subiecto 
+          <cb ed="#V" n="7va"/><lb ed="#V"/>theologico</p>
+        
+        <p><g ref="#pilcrow"/>posset aliter dici quod veritates 
+          <lb ed="#V"/>contingentes theologicae licet in se sunt contingentes 
+          <lb ed="#V"/>sunt tamen necessariae respectu ad determinationem voluntatis 
+          <lb ed="#V"/>divinae et illa est aeterna et sic cognoscuntur 
+          <lb ed="#V"/>et sciuntur quantum ad aliquas conditiones 
+          <lb ed="#V"/>scientiae</p>
+        
+        <p><g ref="#pilcrow"/>Ad argumentum dico quod quaedam est species 
+          <lb ed="#V"/>abstracta a re quaedam est influxa de 
+          <lb ed="#V"/>prima verum est quod est simplicior obiecto cuius est et sic 
+          <lb ed="#V"/>non habetur in proposito de 2a non et sic potest haberi 
+          <lb ed="#V"/>in proposito et hoc <unclear>sufficienter</unclear></p>
+        
+        <p></p>
+        
+      
+      </div>  
+    </body>
+  </text>
+</TEI>
